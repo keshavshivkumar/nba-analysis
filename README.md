@@ -1,6 +1,7 @@
 # Basic analysis of NBA season stats
 This dataset explores the stats of basketball players
 Dataset used: https://www.kaggle.com/drgilermo/nba-players-stats
+Date: November, 2019
 
 No of Columns:53
 
