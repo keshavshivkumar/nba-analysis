@@ -14,7 +14,7 @@ No of categorical columns:6
 NAN values: Present
 
 # Part 1: Data Cleaning:
-    There are 53 columns totally. 3 of them were completely blank so we dropped them completely.
+    There are 53 columns totally. 3 of them were blank so we dropped them completely.
     In the remaining 50 columns, NaN values were present. For those numerical problems, we replaced 
     all NaN values in numerical columns with the average of each column. The rows, where the missing values 
     were Player name, Team Name and position, were dropped.
