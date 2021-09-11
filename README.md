@@ -28,20 +28,20 @@ NAN values: Present
     For most of the calculations, the data was standardized (by subtracting the mean from each value
     in a column and dividing it by its standard deviation), rather than normalized, to give both negative
     and positive values, with mean as 0 and standard deviation as 1.
-    ![image](https://user-images.githubusercontent.com/57229722/132940806-04e54e39-5b8e-45d6-a1a5-eb9a638a99a6.png)
+![image](https://user-images.githubusercontent.com/57229722/132940806-04e54e39-5b8e-45d6-a1a5-eb9a638a99a6.png)
 
 # Part 3: Data Visualization:
     We decided to compare the teams which perform more number of fouls and less number of fouls and see if the same 
     teams perform differently when it comes to total number of points.
-    ![image](https://user-images.githubusercontent.com/57229722/132940860-f4d531c5-b603-4fbf-830b-4cf0cbd4c299.png)
+![image](https://user-images.githubusercontent.com/57229722/132940860-f4d531c5-b603-4fbf-830b-4cf0cbd4c299.png)
     After calculating the total points for the teams with more fouls and less fouls we plotted a line chart to see if the 
     points and the fouls follow a pattern. We observed from the graph that the team with more fouls also have more points.
     The team Denver Nuggets, which has the most number of fouls has the second highest number of points and the team 
     San Diego Clippers, which had the lowest number of fouls had the poorest score when it came to points.
-    ![image](https://user-images.githubusercontent.com/57229722/132940927-a7526f5a-ea86-4819-9de3-35c7da905616.png)
+![image](https://user-images.githubusercontent.com/57229722/132940927-a7526f5a-ea86-4819-9de3-35c7da905616.png)
     Another interesting observation that we had made is the relation between the games started and total points for every
     player, and it was seen that the players with more points tend to start games.
-    ![image](https://user-images.githubusercontent.com/57229722/132940944-02f821e3-6a6d-4e85-a644-cbe3773352f3.png)
+![image](https://user-images.githubusercontent.com/57229722/132940944-02f821e3-6a6d-4e85-a644-cbe3773352f3.png)
 # Part 4: Hypothesis Testing:
     # Hypothesis 1:
     We hypothesized that the mean age of the players playing for the team Boston Celtics was 26.98~27. 10 random players 
@@ -53,7 +53,7 @@ NAN values: Present
     H1: μ != 26.98
 
     α = 0.05
-    ![image](https://user-images.githubusercontent.com/57229722/132941031-915d9a77-5a11-4ee5-9008-67e7eed43587.png)
+![image](https://user-images.githubusercontent.com/57229722/132941031-915d9a77-5a11-4ee5-9008-67e7eed43587.png)
     This means that the sample mean age of 29.1 is possible, and it does not reject the NULL hypothesis.
     We were able to use this because out of all the columns, age was one of the columns to have a Gaussian distribution
     
@@ -67,7 +67,7 @@ NAN values: Present
     H1: μ >= 34.385
 
     α = 0.05
-    ![image](https://user-images.githubusercontent.com/57229722/132941088-98db3599-da5d-465a-815f-232079438162.png)
+![image](https://user-images.githubusercontent.com/57229722/132941088-98db3599-da5d-465a-815f-232079438162.png)
 # Part 5: Correlation
     We will now find the Pearson's correlation coefficient for both the variables by taking 100 samples each, standardize it, 
     find its product, add it and then divide it by the number of observations. 
