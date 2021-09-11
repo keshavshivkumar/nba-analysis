@@ -50,7 +50,7 @@ NAN values: Present
 ![image](https://user-images.githubusercontent.com/57229722/132940944-02f821e3-6a6d-4e85-a644-cbe3773352f3.png)
 
 # Part 4: Hypothesis Testing:
-   # Hypothesis 1:
+   ## Hypothesis 1:
     We hypothesized that the mean age of the players playing for the team Boston Celtics was 26.98~27. 10 random players 
     taken as a sample were found to have their mean age as 29.1. We wanted to check if this observation was able to reject 
     our initial hypothesis, as there is a difference of 2 years between the two.
@@ -66,7 +66,7 @@ NAN values: Present
     This means that the sample mean age of 29.1 is possible, and it does not reject the NULL hypothesis.
     We were able to use this because out of all the columns, age was one of the columns to have a Gaussian distribution
     
-   # Hypothesis 2:
+   ## Hypothesis 2:
     We hypothesized that the mean no of blocks of the players whose age is 20 was 34.385. 10 random players with the same age 
     taken as a sample were found to have their mean no of blocks as 54.2. We wanted to check if this observation was able to reject 
     our initial hypothesis, as there is a difference of 19.815 in the no of blocks between the two means.
